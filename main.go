@@ -7,7 +7,9 @@ import (
 
 // name ...
 func main()  {
+	// 取得したいURL
 	targeturl := "https://b.hatena.ne.jp/"
+	// 取得したいHTTPヘッダー
 	headkey := "X-Amz-Cf-Id"
 
 	resp, err := http.Get(targeturl)
